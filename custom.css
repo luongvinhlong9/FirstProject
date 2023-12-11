@@ -1,0 +1,102 @@
+/* reset margin, padding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.banner {
+  height: 600px;
+  background-image: url(./img/banner.jpg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  padding: 20px;
+}
+.banner .about-signin {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.banner .about-signin .about {
+  text-decoration: none;
+  margin-left: 25px;
+  margin-top: 5px;
+  padding: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: lightcoral;
+  font-weight: bold;
+}
+.banner .about-signin .signin {
+  text-decoration: none;
+  margin-left: 25px;
+  margin-top: 5px;
+  padding: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: lightcoral;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 2px solid lightgreen;
+  margin-right: 30px;
+}
+.banner .logo {
+  margin-top: 80px;
+  background-image: url(./img/logo.png);
+  height: 270px;
+  width: 300px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  margin: 60 auto 0;
+  float: initial;
+  display: block;
+}
+.banner .text {
+  margin-top: 30px;
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+}
+.banner .content-center {
+  height: 55px;
+}
+.banner .content-center .left,
+.banner .content-center .right,
+.banner .content-center .center {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+.banner .content-center .left img,
+.banner .content-center .right img,
+.banner .content-center .center img {
+  height: 30px;
+  width: 30px;
+}
+.banner .content-center .left span,
+.banner .content-center .right span,
+.banner .content-center .center span {
+  display: block;
+  font-size: 25px;
+}
+.banner .btn-start-now {
+  margin-top: 20px;
+  text-align: center;
+}
+.banner .btn-start-now button {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: lightcoral;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid lightgreen;
+  height: 30px;
+  cursor: pointer;
+}
